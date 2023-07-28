@@ -11,6 +11,8 @@ public class Hello7 {
 		// 印出攝氏幾度(小數點一位)
 		System.out.printf("%.1f\n", c);
 
+		// 華氏 45.5 度 = 攝氏 7.5 度 
+		System.out.printf("華氏 %.1f 度 = 攝氏 %.1f 度\n", f, c);
 
 	}
 }
