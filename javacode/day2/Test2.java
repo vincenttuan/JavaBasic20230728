@@ -9,6 +9,20 @@ public class Test2 {
 		System.out.println(a);
 		System.out.println(b);
 		System.out.println(c);
+
+		double d = 4.2e3; // 4200.0
+		System.out.println(d);
+
+		float e = 4.2e3f;
+		System.out.println(e);
+
+		char f = 'Y';
+		char g = '\u0048';
+		char h = '\'';
+		System.out.println(f);
+		System.out.println(g);
+		System.out.println(h);
+
 	}
 
 }
