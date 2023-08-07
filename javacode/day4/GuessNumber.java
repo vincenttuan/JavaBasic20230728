@@ -13,7 +13,12 @@ public class GuessNumber {
 			Scanner sc = new Scanner(System.in);
 			System.out.printf("%d ~ %d 之間猜一數字:", min, max);
 			int userGuess = sc.nextInt();
-			
+			// 判斷 user 所輸入的是否合法?
+			if(userGuess <= min || userGuess >= max) {
+				System.out.printf("您所輸入的數字 %d 不在 %d ~ %d 之間,請重新輸入\n", userGuess, min, max);
+				continue;
+			}
+
 			// 判斷 user 是否猜對?
 			if(userGuess > ans) {
 				max = userGuess;
