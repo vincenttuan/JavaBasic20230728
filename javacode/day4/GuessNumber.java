@@ -10,7 +10,7 @@ public class GuessNumber {
 		int min = 0;
 		int max = 100;
 		//int ans = random.nextInt(99) + 1; // 1~99 之間的隨機數
-		int ans = random.nextInt(max-min-1) + 1;
+		int ans = random.nextInt(max-min-1) + 1 + min;
 
 		while(true) {
 			Scanner sc = new Scanner(System.in);
